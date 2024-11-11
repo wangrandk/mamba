@@ -16,6 +16,7 @@ classifiers = [
     "Operating System :: Unix"
 ]
 dependencies = [
+    "numpy",
     "torch",
     "ninja",
     "einops",
@@ -42,5 +43,6 @@ requires = [
     "torch",
     "packaging",
     "ninja",
+    "numpy"
 ]
 build-backend = "setuptools.build_meta"
